@@ -43,7 +43,7 @@ export default function Achievements() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.7 } }}
       >
-        <span className="text-cyan-400">Achievements</span>
+        <span className="bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-6">Achievements</span>
       </motion.h2>
 
       <motion.div
