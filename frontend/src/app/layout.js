@@ -17,24 +17,32 @@ export default function RootLayout({ children }) {
   const [showButton, setShowButton] = useState(false)
   const [loading, setLoading] = useState(true)
 
- 
-
-  // Finish loading handler function to pass to LoadingScreen
-  const finishLoading = () => {
-    setLoading(false)
-  }
-
-  // Optional: Only show loading screen on first visit
+  // Add scroll event listener to show/hide button
   useEffect(() => {
-    // Check if user has visited before
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowButton(true)
+      } else {
+        setShowButton(false)
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  // Handle loading screen
+  useEffect(() => {
     const hasVisited = localStorage.getItem('hasVisited')
     if (hasVisited) {
       setLoading(false)
-    } else {
-      // Set flag for future visits
-      localStorage.setItem('hasVisited', 'true')
     }
   }, [])
+
+  const finishLoading = () => {
+    setLoading(false)
+    localStorage.setItem('hasVisited', 'true')
+  }
 
   const scrollToTop = () => {
     window.scrollTo({
