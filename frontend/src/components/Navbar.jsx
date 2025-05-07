@@ -111,7 +111,7 @@ export default function Navbar() {
         {/* Updated Social Links */}
         <div className="hidden md:flex items-center space-x-4 relative z-10">
           {[
-            { href: "https://linkedin.com/in/rayaprolu-karthik", icon: FaLinkedin, label: "LinkedIn" },
+            { href: "https://www.linkedin.com/in/karthikrayaprolu", icon: FaLinkedin, label: "LinkedIn" },
             { href: "https://github.com/karthikrayaprolu", icon: FaGithub, label: "GitHub" },
             { href: "mailto:karthikrayaprolu13@gmail.com", icon: FaEnvelope, label: "Email" },
             { href: "https://codolio.com/profile/Karthik@13", icon: FaCode, label: "Codolio" },
