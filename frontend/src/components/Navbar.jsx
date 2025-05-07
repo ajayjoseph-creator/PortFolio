@@ -179,7 +179,7 @@ export default function Navbar() {
               <li className="pt-6 border-t border-white/10">
                 <div className="flex justify-center space-x-6">
                  {[
-                    { href: "https://linkedin.com/in/rayaprolu-karthik", icon: FaLinkedin, label: "LinkedIn" },
+                    { href: "https://www.linkedin.com/in/karthikrayaprolu", icon: FaLinkedin, label: "LinkedIn" },
                     { href: "https://github.com/karthikrayaprolu", icon: FaGithub, label: "GitHub" },
                     { href: "mailto:karthikrayaprolu13@gmail.com", icon: FaEnvelope, label: "Email" },
                     { href: "https://codolio.com/profile/Karthik@13", icon: FaCode, label: "Codolio" },
