@@ -79,7 +79,7 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <img
-              src="/karthik.jpeg"
+              src="Ajay.jpg"
               alt="Karthik"
               className="w-full h-full object-cover"
               loading="lazy"
@@ -100,7 +100,7 @@ export default function Hero() {
           >
             Hi, I'm{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-              Karthik
+             Ajay Joseph
             </span>
           </motion.h1>
 
@@ -116,8 +116,8 @@ export default function Hero() {
 
           {/* CTA Button - Resume */}
           <motion.a
-            href="/resume.pdf"
-            download="Karthik_Resume.pdf"
+            href="/Ajay joseph Resume.pdf"
+            download="Ajay's Resume.pdf"
             className="relative inline-flex items-center justify-center px-7 py-3 rounded-lg font-semibold text-white bg-transparent border-2 border-cyan-400 overflow-hidden group transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-black"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

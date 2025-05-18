@@ -23,37 +23,30 @@ const technologies = {
 // --- Projects array ---
 const projects = [
   {
-    title: 'Abiruchulu Food Delivery',
+    title: 'PetFood Ecommerse',
     description: 'A full-stack food delivery platform with real-time order tracking and payment integration.',
     technologies: ['ReactJs', 'NodeJS', 'MongoDB'],
-    image: '/abhiruchulu.png',
-    live: 'https://abiruchulu-frontend.onrender.com',
-    github: 'https://github.com/karthikrayaprolu/Food-Delivery-App',
+    image: '/Perfoodlogo.jpg',
+    live: 'https://pet-food-ecommerce-neon.vercel.app/',
+    github: 'https://github.com/ajayjoseph-creator/PetFood-Ecommerce',
   },
+  
   {
-    title: 'Brain Tumor Detection',
-    description: 'AI-powered brain tumor detection system using deep learning and medical imaging.',
-    technologies: ['ReactJs', 'Deep Learning', 'Flask'],
-    image: '/brain.png',
-    live: 'https://brain-tumor-detection-8x84.onrender.com',
-    github: 'https://github.com/karthikrayaprolu/Brain-Tumor-Detection',
+    title: 'Jesus Army',
+    description: 'Jesus Army is a Christ-centered community committed to spreading the Gospel, serving those in need, and living out the love of Jesus in everyday life. Join us as we grow in faith, worship in unity, and walk together in Gods purpose.',
+    technologies: ['ReactJs', 'Tailwind', ],
+    image: '/JesusArmy.jpg',
+    live: 'https://jesusarmy.vercel.app/',
+    github: 'https://github.com/ajayjoseph-creator/jesusarmy',
   },
-  {
-    title: 'HireVista',
-    description: 'Recruitment analysis platform with ML-powered candidate screening and matching.',
-    technologies: ['ReactJs', 'Tailwind', 'ML'],
-    image: '/hire.png',
-    live: 'https://recuritment-analysis-frontend.onrender.com',
-    github: 'https://github.com/karthikrayaprolu/Recuritment-Analysis',
-  },
-  {
-    title: 'Weather App',
-    description: 'Real-time weather application with location-based forecasts and interactive UI.',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
-    image: '/weather.png',
-    live: 'https://github.com/karthikrayaprolu/weather-app',
-    github: 'https://github.com/karthikrayaprolu/weather-app',
-  },
+  // {
+  //   title: 'Weather App',
+  //   description: 'Real-time weather application with location-based forecasts and interactive UI.',
+  //   technologies: ['HTML', 'CSS', 'JavaScript'],
+  //   image: '/weather.png',
+  //   live: 'https://github.com/karthikrayaprolu/weather-app',
+  //   github: 'https://github.com/karthikrayaprolu/weather-app',
+  // },
 ]
 
 // --- Animation duration (seconds) ---

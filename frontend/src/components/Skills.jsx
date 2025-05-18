@@ -1,22 +1,31 @@
 'use client'
 import { motion } from 'framer-motion'
-import { FaJava, FaPython, FaRobot, FaReact, FaNodeJs, FaGitAlt, FaFigma } from 'react-icons/fa'
-import { SiTailwindcss, SiMongodb, SiJupyter } from 'react-icons/si'
+import { FaJava, FaPython, FaRobot, FaReact, FaNodeJs, FaGitAlt, FaFigma, FaProjectDiagram,} from 'react-icons/fa'
+import { SiTailwindcss, SiMongodb, SiJupyter, SiPostman, SiCloudinary, SiBootstrap, SiRedux, SiReduxsaga } from 'react-icons/si'
 import { GiBrain } from 'react-icons/gi'
 
 const technologies = [
-  { name: 'Java', icon: <FaJava /> },
-  { name: 'Python', icon: <FaPython /> },
-  { name: 'Machine Learning', icon: <GiBrain /> },
-  { name: 'Artificial Intelligence', icon: <FaRobot /> },
+ 
+ 
+  
   { name: 'React', icon: <FaReact /> },
   { name: 'TailwindCSS', icon: <SiTailwindcss /> },
   { name: 'MongoDB', icon: <SiMongodb /> },
   { name: 'Node.js', icon: <FaNodeJs /> },
   { name: 'Express', icon: <FaNodeJs /> },
-  { name: 'Jupyter', icon: <SiJupyter /> },
+  { name: 'Redux', icon: <SiRedux /> },
+  { name: 'ReduxSaga', icon: <SiReduxsaga /> },
+
+
+
   { name: 'Git', icon: <FaGitAlt /> },
   { name: 'Figma', icon: <FaFigma /> },
+  { name: 'Postman', icon: <SiPostman /> },
+  { name: 'Cloudinary', icon: <SiCloudinary /> },
+  { name: 'Bootstrap', icon: <SiBootstrap /> },
+  { name: 'Code Planner', icon: <FaProjectDiagram /> },
+
+
 ]
 
 const skillVariants = {

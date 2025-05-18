@@ -6,6 +6,7 @@ import {
   FaGithub,
   FaEnvelope,
   FaCode,
+  FaInstagram,
   FaBars,
   FaTimes,
 } from "react-icons/fa";
@@ -71,14 +72,14 @@ export default function Navbar() {
             className="text-3xl font-bold text-cyan-400 group-hover:text-white transition-colors duration-300"
             variants={linkVariants}
           >
-            K
+            A
           </motion.span>
           <motion.span
             className="text-xl font-light text-gray-300 group-hover:text-cyan-300 transition-colors duration-300 tracking-wider"
             variants={linkVariants}
             transition={{ delay: 0.05 }}
           >
-            folio
+            jay Joseph
           </motion.span>
         </motion.div>
 
@@ -111,10 +112,10 @@ export default function Navbar() {
         {/* Updated Social Links */}
         <div className="hidden md:flex items-center space-x-4 relative z-10">
           {[
-            { href: "https://www.linkedin.com/in/karthikrayaprolu", icon: FaLinkedin, label: "LinkedIn" },
-            { href: "https://github.com/karthikrayaprolu", icon: FaGithub, label: "GitHub" },
-            { href: "mailto:karthikrayaprolu13@gmail.com", icon: FaEnvelope, label: "Email" },
-            { href: "https://codolio.com/profile/Karthik@13", icon: FaCode, label: "Codolio" },
+            { href: "https://www.linkedin.com/in/ajay-joseph-077444313/", icon: FaLinkedin, label: "LinkedIn" },
+            { href: "https://github.com/ajayjoseph-creator", icon: FaGithub, label: "GitHub" },
+            { href: "ajayjoseph8078@gmail.com", icon: FaEnvelope, label: "Email" },
+            { href: "https://www.instagram.com/_jesus_army__/?__pwa=1", icon: FaInstagram, label: "instagram" },
           ].map((social) => (
             <motion.a
               key={social.label}

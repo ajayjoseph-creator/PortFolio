@@ -5,22 +5,22 @@ import { FaGraduationCap, FaLaptopCode, FaSchool } from 'react-icons/fa'
 // Card data
 const cards = [
   {
-    icon: <FaGraduationCap />,
-    title: 'Bachelor of CSE [AI/ML]',
-    subtitle: 'Gayatri Vidya Parishad College of Engineering',
-    details: '9.4 CGPA | 2023 - 2026',
-  },
-  {
     icon: <FaLaptopCode />,
-    title: 'Diploma in Computer Engineering',
-    subtitle: 'A.A.N.M AND V.V.R.S.R Polytechnic',
-    details: '93.91% | 2020 - 2023',
+    title: 'MERN Stack Developer',
+    subtitle: 'Bridgeon Solutions',
+    details: ' INTERN',
   },
   {
     icon: <FaSchool />,
-    title: 'Board of Secondary Education',
-    subtitle: 'Andhra Nalanda Municipal High School',
-    details: '9.8 GPA | 2019 - 2020',
+    title: 'Higher Secondary Education',
+    subtitle: 'Government Higher Secondary School Eranhimangad',
+    details: '2022|2024',
+  },
+  {
+    icon: <FaSchool />,
+    title: 'Secondary Education',
+    subtitle: 'Government Higher Secondary School Eranhimangad',
+    details: ' 2018 - 2021',
   },
 ]
 
