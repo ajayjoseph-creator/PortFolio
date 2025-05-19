@@ -180,10 +180,10 @@ export default function Navbar() {
               <li className="pt-6 border-t border-white/10">
                 <div className="flex justify-center space-x-6">
                  {[
-                    { href: "https://www.linkedin.com/in/karthikrayaprolu", icon: FaLinkedin, label: "LinkedIn" },
-                    { href: "https://github.com/karthikrayaprolu", icon: FaGithub, label: "GitHub" },
-                    { href: "mailto:karthikrayaprolu13@gmail.com", icon: FaEnvelope, label: "Email" },
-                    { href: "https://codolio.com/profile/Karthik@13", icon: FaCode, label: "Codolio" },
+                    { href: "https://www.linkedin.com/in/ajay-joseph-077444313/", icon: FaLinkedin, label: "LinkedIn" },
+                    { href: "https://github.com/ajayjoseph-creator", icon: FaGithub, label: "GitHub" },
+                    { href: "ajayjoseph8078@gmail.com", icon: FaEnvelope, label: "Email" },
+                    { href: "https://www.instagram.com/_jesus_army__/?__pwa=1", icon: FaInstagram, label: "instagram" },
                   ].map((social) => (
                     <motion.a
                       key={social.label}

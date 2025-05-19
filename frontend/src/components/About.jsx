@@ -92,7 +92,7 @@ export default function About() {
         className="max-w-4xl text-center text-gray-300 text-lg sm:text-xl mb-16 font-light tracking-wide leading-relaxed"
         variants={itemVariants}
       >
-        I am Karthik, a passionate Full-Stack Developer, AI/ML enthusiast, and UI/UX designer. I thrive on building scalable web applications and exploring the latest technologies.
+        I am Ajay joseph, a passionate Full-Stack Developer.
       </motion.p>
 
       <motion.div

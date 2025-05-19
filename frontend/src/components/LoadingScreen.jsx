@@ -56,7 +56,7 @@ export default function LoadingScreen({ finishLoading }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          <span className="text-white">K</span>
+          <span className="text-white">A</span>
           <motion.span
             className="text-cyan-400"
             animate={{ opacity: [0.4, 1, 0.4] }}
