@@ -128,7 +128,7 @@ export default function Hero() {
             {/* Background fill effect */}
             <span className="absolute inset-0 bg-cyan-400/20 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300 ease-out z-0"></span>
             {/* Text */}
-            <span className="relative z-10">View My Resume</span>
+            <span className="relative z-10">Download My Resume</span>
           </motion.a>
         </div>
       </div>
