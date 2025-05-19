@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 import ParticleBackground from "./ParticleBackground";
 
-const roles = ["Full-Stack Developer", "AI/ML Enthusiast", "UI/UX Designer"];
+const roles = ["Full-Stack Developer", "UI/UX Designer"];
 
 // Enhanced Typewriter Component
 const Typewriter = ({ roles }) => {
@@ -80,7 +80,7 @@ export default function Hero() {
           >
             <img
               src="Ajay.jpg"
-              alt="Karthik"
+              alt="ajay"
               className="w-full h-full object-cover"
               loading="lazy"
             />
